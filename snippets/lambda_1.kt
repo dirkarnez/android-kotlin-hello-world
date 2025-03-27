@@ -2,4 +2,10 @@
 fun main() {
     var func: (Int, Int) -> Int = { a, b -> a + b }
     println("Hello, world!!! ${func(1, 2)}")
+
+    val a = { i: Int -> i + 1 } 
+    fun(s: String): Int { return s.toIntOrNull() ?: 0 }
+
+    // [Higher-order functions and lambdas | Kotlin Documentation](https://kotlinlang.org/docs/lambdas.html#it-implicit-name-of-a-single-parameter)
+     { it.length == 5 }
 }
